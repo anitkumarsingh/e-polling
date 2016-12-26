@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tbvote (
+    member_id int(5) NOT NULL,
+    candidate_name varchar(45) NOT NULL,
+    candidate_position varchar(45) NOT NULL,
+    foreign key(member_id) references tbmembers(member_id) on delete cascade,
+    primary key(member_id, candidate_position));

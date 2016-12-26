@@ -1,0 +1,11 @@
+INSERT INTO `tbcandidates` (`candidate_id`, `position_id`, `candidate_name`, `candidate_position`, `candidate_cvotes`) VALUES
+(3, 1, 'Luis Nani', 'Chairperson', 9),
+(4, 1,  'Wayne Rooney', 'Chairperson', 20),
+(6, 5, 'Thomas Vaemalen', 'Vice-Secretary', 0),
+(8, 2, 'Michael Walters', 'Secretary', 7),
+(9, 2, 'Roberto Mancini', 'Secretary', 46),
+(10, 8, 'Alex Ferguson', 'Treasurer', 0),
+(13, 8, 'Chemical Reaction', 'Treasurer', 0),
+(14, 5, 'Danny Welbeck', 'Vice-Secretary', 0),
+(15, 7, 'Paul Allen', 'Organizing-Secretary', 0),
+(16, 7, 'Bill Gates', 'Organizing-Secretary', 0) );
